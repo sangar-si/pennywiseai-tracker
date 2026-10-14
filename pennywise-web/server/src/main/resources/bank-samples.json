@@ -233,12 +233,12 @@
     },
     "CIBC": {
       "sender": "242226",
-      "message": "Sangar, An ATM withdrawal of $250.00 was debited from your account ending in 2291. Sign on to CIBC Banking for details.",
+      "message": "Sangar, A purchase of $100.00 was made using card ending in 1234. Sign on to CIBC Banking for details",
       "currency": "CAD",
-      "amount": "250.00",
+      "amount": "100.00",
       "type": "EXPENSE",
-      "merchant": "ATM Withdrawal",
-      "accountLast4": "2291",
+      "merchant": "Debit Purchase",
+      "accountLast4": "1234",
       "reference": null,
       "balance": null
     },

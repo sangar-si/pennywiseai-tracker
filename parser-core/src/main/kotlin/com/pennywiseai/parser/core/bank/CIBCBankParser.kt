@@ -81,7 +81,7 @@ class CIBCBankParser : BankParser()  {
                     return ParsedTransaction(
                         amount = amount,
                         type = TransactionType.EXPENSE,
-                        merchant = null,
+                        merchant = "Debit Purchase",
                         reference = null,
                         accountLast4 = accountLast4,
                         balance = null,
