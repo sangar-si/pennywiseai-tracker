@@ -8,6 +8,7 @@ import com.pennywiseai.parser.core.ParsedTransaction
 object BankParserFactory {
 
     private val parsers = listOf(
+        CIBCBankParser(),  // CIBC (Canada)
         HDFCMutualFundParser(),  // HDFC Mutual Fund (must be before HDFCBankParser to avoid interception by HDFC's broad DLT pattern)
         NaviMutualFundParser(),  // Navi Mutual Fund (AMC SIP / unit-allotment SMS — NAVAMC sender)
         HDFCBankParser(),
@@ -169,8 +170,7 @@ object BankParserFactory {
         OpayBankParser(),  // Opay (Nigeria)
         MoniepointParser(),  // Moniepoint MFB (Nigeria)
         GTBankParser(),  // Guaranty Trust Bank / GTBank (Nigeria)
-        VFDBankParser(),  // VFD Microfinance Bank (Nigeria)
-        CIBCBankParser()  // CIBC (Canada)
+        VFDBankParser()  // VFD Microfinance Bank (Nigeria)
         // Add more bank parsers here as we implement them
     )
 
