@@ -8,9 +8,9 @@ import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
 import java.math.BigDecimal
 
-class CibcParserTest {
+class CIBCBankParserTest {
 
-    private val parser = CibcParser()
+    private val parser = CIBCBankParser()
 
     @TestFactory
     fun `cibc parser handles key paths`(): List<DynamicTest> {
