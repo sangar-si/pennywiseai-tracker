@@ -231,6 +231,17 @@
       "reference": "on",
       "balance": null
     },
+    "CIBC": {
+      "sender": "242226",
+      "message": "Sangar, An ATM withdrawal of $250.00 was debited from your account ending in 2291. Sign on to CIBC Banking for details.",
+      "currency": "CAD",
+      "amount": "250.00",
+      "type": "EXPENSE",
+      "merchant": "ATM Withdrawal",
+      "accountLast4": "2291",
+      "reference": null,
+      "balance": null
+    },
     "CIMB Thai": {
       "sender": "CIMB",
       "message": "CIMB: Transfer received 6,000.00 THB A/C x5566 Bal 14,980.00 THB",

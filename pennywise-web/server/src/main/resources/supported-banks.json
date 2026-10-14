@@ -1,6 +1,6 @@
 {
-  "totalBanks": 160,
-  "totalCountries": 25,
+  "totalBanks": 161,
+  "totalCountries": 26,
   "countries": [
     {
       "country": "India",
@@ -153,6 +153,14 @@
       "symbol": "Br",
       "bankCount": 1,
       "banks": ["Priorbank"]
+    },
+    {
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "currency": "CAD",
+      "symbol": "$",
+      "bankCount": 1,
+      "banks": ["CIBC"]
     },
     {
       "country": "Colombia",

@@ -9,8 +9,8 @@ class CIBCBankParser : BankParser()  {
     override fun getBankName() = "CIBC"
 
     override fun getCurrency() = "CAD"
-    override val countryCode: String = "CA"
-    override val senderIds: List<String> = listOf("242226", "24222", "CIBC", "CIBCALERT")
+    val countryCode: String = "CA"
+    val senderIds: List<String> = listOf("242226", "24222", "CIBC", "CIBCALERT")
 
 
     // 1. Debit Card Purchase Pattern
@@ -205,7 +205,7 @@ class CIBCBankParser : BankParser()  {
         return null
     }
 
-    open fun getTransactionCategory(message: String): Int {
+    fun getTransactionCategory(message: String): Int {
         val validPatterns: List<String> = listOf(
             "A purchase of", // Debit card purchase
             "you spent", // Credit card purchase

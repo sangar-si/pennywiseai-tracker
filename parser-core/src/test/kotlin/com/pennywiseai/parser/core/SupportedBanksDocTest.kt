@@ -50,6 +50,7 @@ class SupportedBanksDocTest {
         "OMR" to CountryMeta("Oman", "🇴🇲", "ر.ع."),
         "EUR" to CountryMeta("Eurozone", "🇪🇺", "€"),
         "GBP" to CountryMeta("United Kingdom", "🇬🇧", "£"),
+        "CAD" to CountryMeta("Canada", "🇨🇦", "$"),
     )
 
     // A currency maps 1:1 to a country for every bank we support — except where a
