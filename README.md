@@ -199,6 +199,9 @@ Supporting **160 banks & services** across **25 countries** with **multi-currenc
 
 ### 🇹🇷 Turkey — TRY ₺ (1)
 **Enpara**
+
+### 🇨🇦 Canada - CAD $ (1)
+**CIBC**
 <!-- SUPPORTED_BANKS:END -->
 
 More banks being added regularly! [Request your bank →](https://github.com/sarim2000/pennywiseai-tracker/issues/new?template=bank_support_request.md)

@@ -169,7 +169,8 @@ object BankParserFactory {
         OpayBankParser(),  // Opay (Nigeria)
         MoniepointParser(),  // Moniepoint MFB (Nigeria)
         GTBankParser(),  // Guaranty Trust Bank / GTBank (Nigeria)
-        VFDBankParser()  // VFD Microfinance Bank (Nigeria)
+        VFDBankParser(),  // VFD Microfinance Bank (Nigeria)
+        CIBCBankParser()  // CIBC (Canada)
         // Add more bank parsers here as we implement them
     )
 
